@@ -15,6 +15,7 @@ void PCA_Init()
 
 void SPI_Init()
 {
+    SPI0CFG   = 0x40;
     SPI0CN    = 0x01;
     SPI0CKR   = 0x17;
 }
